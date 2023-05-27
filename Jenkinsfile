@@ -2,7 +2,7 @@ pipeline {
     agent none
 
     stages {
-        stage('Build on Slave') {
+        stage('Build on Slaves') {
             agent {
                 label 'myslave' // Replace 'slave-node' with the actual label assigned to your slave node
             }
