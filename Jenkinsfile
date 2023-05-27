@@ -8,19 +8,19 @@ pipeline {
             //}
             steps {
                 // Perform build steps on the slave node
-                sh 'echo "Building on slave node..."'
+                
             }
         }
 	stage('Test') {
             steps {
                 // Perform test steps here
-                sh 'echo "Testing..."'
+                
             }
         }
         stage('Deploy') {
             steps {
                 // Perform deployment steps here
-                sh 'echo "Deploying..."'
+                
             }
         }
         // Other stages
