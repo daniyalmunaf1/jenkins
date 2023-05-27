@@ -17,12 +17,7 @@ pipeline {
                 
             }
         }
-        stage('Deploy') {
-            steps {
-                // Perform deployment steps here
-                
-            }
-        }
+        
         // Other stages
     }
 }
