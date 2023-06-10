@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Build on abc') {
             agent {
-                label 'myslave' // Replace 'slave-node' with the actual label assigned to your slave node
+                label 'abfv' // Replace 'slave-node' with the actual label assigned to your slave node
             }
             steps {
                 // Perform build steps on the slave node
