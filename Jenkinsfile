@@ -2,7 +2,7 @@ pipeline {
     agent none
 
     stages {
-        stage('Build on ddsd') {
+        stage('Build on ddd') {
             agent {
                 label 'abfv' // Replace 'slave-node' with the actual label assigned to your slave node
             }
